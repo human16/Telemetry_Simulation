@@ -6,5 +6,5 @@ class DataModel(BaseModel):
     timestamp: datetime
     sensor_id: str
     run_id: str
-    data_type: Literal["temp", "force", "speed", "pressure"]
+    data_type: Literal["temp", "pressure", "vibration"]
     value: float
